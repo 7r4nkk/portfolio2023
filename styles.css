@@ -21,13 +21,24 @@ nav{
 .menu-options-desk{
     display: none;
 }
-button{
-    padding: 10px;
-    background: rgba(255, 0, 0, 0);
-}
 .menu-options-mobile{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px 0;
 }
+button{
+    background: rgba(255, 0, 0, 0);
+    padding: 10px 10px 5px 10px;
+    border-radius: 25% 0;
+    border: none;
+}
+
 .icon{
     width: 32px;
 }
@@ -66,6 +77,9 @@ h1{
     }
     .menu-options-desk{
         display: block;
+    }
+    .menu-options-mobile{
+        display: none;
     }
     h2{
         margin: 0;
