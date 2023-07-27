@@ -5,13 +5,7 @@ import Nav from '../pages/Nav'
 function App() {
   
   return (
-    
-    
-    
-      <AppRouter/>
-    
-    
-      
+      <AppRouter/>  
   )
 }
 
