@@ -9,7 +9,6 @@ const Home = () => {
         <div className='textContainer'>
           <h3 className='textHome'>Hola! Bienvenido a mi portfolio, mi nombre es Frank y soy desarrollador full-stack.</h3>
         </div>
-          
       </div>
     </div>
   )
