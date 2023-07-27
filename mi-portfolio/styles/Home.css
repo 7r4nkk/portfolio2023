@@ -1,0 +1,17 @@
+.bodyHome{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.textContainer{
+    display: flex;
+    align-items: center;
+}
+.textHome{
+    font-size: 2.5rem;
+}
+
+
+
