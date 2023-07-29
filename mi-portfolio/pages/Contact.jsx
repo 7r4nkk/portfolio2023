@@ -1,9 +1,12 @@
 import React from 'react'
 import '../src/styles.css'
+import '../styles/Contact.css'
 
 const Contact = () => {
   return (
-    <h1>Mi contacto</h1>
+    <div className='body'>
+      <h1>Mi contacto</h1>
+    </div>
   )
 }
 
